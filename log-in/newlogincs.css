@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+/*^for this page^*/
+
+    #wrapper{
+
+        width: 100%;
+        height: auto;
+      display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans'; 
+    font-style: italic;
+  }
+  form{
+      margin-top:100px ;
+      padding: 50px;
+    width: 500px;
+    height: 500px;
+      display: flex;
+      flex-direction: column;
+      border: #f0f0f0 solid;
+      margin-bottom: 50px;
+      border-radius:15px ;
+   
+  }
+  #username{
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+ 
+  }
+  #password{
+   
+      padding: 7px;
+  }
+  #img{
+      margin-left:37%;
+      
+  }
+ #button{
+    background-color:#87b8c1;
+    color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+#button:hover{
+   background-color:#f0f0f0 ;
+    color: #87b8c1;
+}
+#forgot{
+    text-decoration: none;
+    color: gray;
+    align-self: center;
+    margin-top: 25px;
+
+}
+#sign-up{
+   
+    background-color:#87b8c1;
+    color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 40%;
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    align-self: flex-end;
+    border:none;
+    border-radius: 10px;
+    margin-left: 10px;  
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+#sign-up:hover{
+    background-color:#f0f0f0 ;
+    color: #87b8c1;
+}
+#sighn-upsentese{
+ padding-right: 20px;
+  display: inline;
+  align-self: flex-start;
+  margin-top: 50px;
+  color:gray ;
+
+}
+#bottomdiv{
+    
+    margin-top: 40px;
+
+}
+#username{
+    border-radius:50px;
+    height: 50px;
+   color:black ;
+   font-weight: bolder;
+   margin-top: auto;
+   border: transparent;
+   background-color: rgb(234, 234, 234);
+}
+#password{
+    border-radius:50px;
+    height: 50px;
+   color:black ;
+   font-weight: bolder;
+   margin-bottom: auto;
+   border: transparent;
+   background-color: rgb(234, 234, 234);
+}
+#password::placeholder{
+    padding-left: 15px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+#username::placeholder{
+    padding-left: 15px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+
+

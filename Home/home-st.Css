@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+
+/*for this page*/
+
+.gallary{
+    
+    display: flex;
+    
+    margin: 100px 310px 100px 310px;
+
+    align-items: center;
+  justify-content: center;
+    
+ 
+}
+#rw{
+
+    margin-right: 5px;
+    
+}
+.boxit{
+ max-height: 800px;
+ border: 1px solid white;
+ display: flex;   
+ overflow-x:scroll;
+ 
+}
+.boxit .book{
+    min-width: 250px;
+    height: 180px;
+    background-color: white;
+}
+.book img{
+    width: 130px;
+}
+
+.bar-name{
+ 
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+
+}
+#cof-line,#eq-line,#about-line{
+    
+    border: 1px #87b8c1 solid;
+    width: 30%;
+    background-color: #87b8c1;
+
+}
+#ab-box{
+    width: 100vh;
+    margin-left: 10%;
+}
+#ab-para{
+    padding: 25px;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: #87b8c1 2px 2px 4px ;
+}

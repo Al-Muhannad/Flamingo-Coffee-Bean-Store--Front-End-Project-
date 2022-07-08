@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+/*^for this page^*/
+
+#wrapper{
+
+        width: 100%;
+        height: auto;
+      display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+  }
+  form{
+      margin-top:100px ;
+      padding: 50px;
+    width: 500px;
+    height: auto;
+      display: flex;
+      flex-direction: column;
+      border: #f0f0f0 solid;
+      margin-bottom: 50px;
+      border-radius:15px ;
+      justify-content: space-between;
+   color: black;
+  }
+
+  #img{
+      margin-left:37%;
+      
+  }
+ #button{
+    background-color:#87b8c1;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+
+}
+#button:hover{
+   background-color:#f0f0f0 ;
+    color: #87b8c1;
+}
+
+#sign-up{
+   
+    background-color:#87b8c1;
+    color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 40%;
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    align-self: flex-end;
+    border:none;
+    border-radius: 10px;
+    margin-left: 10px;  
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 600;
+}
+#sign-up:hover{
+    background-color:#f0f0f0 ;
+    color: #87b8c1;
+}
+
+.input{
+    border-radius:50px;
+    height: 50px;
+   border: none;
+   background-color: #f0f0f0;
+  
+   font-weight: bolder;
+   margin-top: auto;
+
+}
+.input::placeholder{
+    padding-left: 15px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+}
+.lable{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: gray;
+  margin-left: 10px;
+  font-weight: bolder;
+
+}
+
+input[type="date"] {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bolder;
+    color: gray;
+  }
+  
+  input[type="date"]::-webkit-clear-button {
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+  }
+  
+  input[type="date"]::-webkit-inner-spin-button {
+    height: 28px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 40px;
+  }
+
+

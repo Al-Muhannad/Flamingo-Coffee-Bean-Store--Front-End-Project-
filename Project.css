@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+/*^for every page^*/
+*{
+    
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+#logo{
+    margin-top: 10px;
+}
+
+.navbar{
+  
+    background-color: #87b8c1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar li{
+    padding: 3vh;
+   font-size: 40px;
+   font-family: 'Josefin Sans';
+   font-weight: 300;
+    font-style: italic;
+}
+.navbar a{
+    padding: 3vh;
+    color: #87b8c1;
+    }
+.navbar a:hover{
+    background-color: rgb(231, 231, 231) ;
+    color:#87b8c1;
+}
+.navbar a{
+    color: white;  
+  
+    }
+a:link {
+    text-decoration: none;
+ 
+  }
+a:visited{
+    color: white;
+}
+#log:hover{
+background-color: transparent;
+}
+
+#slogen{
+   font-size: 50px;
+    text-align: center;
+    color: #87b8c1;
+    margin: 100px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+#slogen span{
+
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+footer{
+  
+    background-color: #87b8c1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-direction: column;
+    
+}
+.con1{
+    display: flex;
+    margin: auto;
+}
+
+.cont a{
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: 200;
+    padding-left: 10px;
+}
